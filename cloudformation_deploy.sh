@@ -1,7 +1,7 @@
 #!/bin/sh
 
-BUCKET_NAME=devopstar
-BUCKET_PREFIX='resources/waanimals-fb-bot'
+BUCKET_NAME=recyclemateaus
+BUCKET_PREFIX='/upload'
 
 ## Creates S3 bucket
 aws s3 mb s3://$BUCKET_NAME

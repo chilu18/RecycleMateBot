@@ -1,7 +1,7 @@
 !/bin/sh
 
 # Create ECR (if not already existing)
-aws ecr create-repository --repository-name "waanimals-fb-bot-webhook"
+aws ecr create-repository --repository-name "recyclemate"
 
 ACCOUNT_ID=$(aws sts get-caller-identity |  jq -r '.Account')
 $(aws ecr get-login --no-include-email --region us-east-1)

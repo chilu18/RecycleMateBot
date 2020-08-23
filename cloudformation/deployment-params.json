@@ -1,0 +1,26 @@
+
+[
+    { "ParameterKey":"ProjectName",             "ParameterValue":"RecycleMateBot" },
+    { "ParameterKey":"BucketName",              "ParameterValue":"recyclemateaus" },
+    { "ParameterKey":"BucketPrefix",            "ParameterValue":"upload" },
+    { "ParameterKey":"ClassB",                  "ParameterValue":"160" },
+    { "ParameterKey":"ClusterName",             "ParameterValue":"recyclematebot-cluster" },
+    { "ParameterKey":"CodeRepositoryURL",       "ParameterValue":"https://github.com/chilu18/RecycleMateBot" },
+
+    { "ParameterKey":"ServiceName",             "ParameterValue":"recyclematebot-webhook" },
+    { "ParameterKey":"ContainerName",           "ParameterValue":"recyclematebot-webhook" },
+    { "ParameterKey":"ContainerPort",           "ParameterValue":"1337" },
+    { "ParameterKey":"ContainerCpu",            "ParameterValue":"256" },
+    { "ParameterKey":"ContainerMemory",         "ParameterValue":"512" },
+    { "ParameterKey":"DesiredCount",            "ParameterValue":"1" },
+    { "ParameterKey":"HealthEndpoint",          "ParameterValue":"/healthy" },
+    { "ParameterKey":"CertificateArn",          "ParameterValue":"arn:aws:acm:ap-southeast-2:803946192019:certificate/ae88f349-d930-480f-856a-f9fd41aa7f00" },
+
+    { "ParameterKey":"BuildspecLocation",       "ParameterValue":"messenger-bot/buildspec.yml" },
+    { "ParameterKey":"EnvironmentType",         "ParameterValue":"LINUX_CONTAINER" },
+    { "ParameterKey":"ComputeType",             "ParameterValue":"BUILD_GENERAL1_SMALL" },
+    { "ParameterKey":"BuildImage",              "ParameterValue":"aws/codebuild/ubuntu-base:14.04" },
+
+    { "ParameterKey":"FbVerifyToken",           "ParameterValue":"amabottolo" },
+    { "ParameterKey":"FbPageAccessToken",       "ParameterValue":"EAAFBkrbeZCZCUBAKHRmHLMZAQZCARqzQc1hF0zYqr8uomWLD1ZA0JvZBqeANZB9e6O59XAiHsCOmkhpEQm9UrLPArdc9cuJXVpgIyiMaZCBd2cZBSqZCBm614bTZC7idBYw0a0DVGu4H3r0dgign0Rbvvoozuyylf74bdYgetWqt5oXkEfMOiUQAKzN" }
+]
