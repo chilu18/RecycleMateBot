@@ -2,9 +2,9 @@
 [
     { "ParameterKey":"ProjectName",             "ParameterValue":"RecycleMateBot" },
     { "ParameterKey":"BucketName",              "ParameterValue":"recyclemateaus" },
-    { "ParameterKey":"BucketPrefix",            "ParameterValue":"upload" },
+    { "ParameterKey":"BucketPrefix",            "ParameterValue":"recyclemateaus/upload/" },
     { "ParameterKey":"ClassB",                  "ParameterValue":"160" },
-    { "ParameterKey":"ClusterName",             "ParameterValue":"recyclematebot-cluster" },
+    { "ParameterKey":"ClusterName",             "ParameterValue":"recyclemate-cluster" },
     { "ParameterKey":"CodeRepositoryURL",       "ParameterValue":"https://github.com/chilu18/RecycleMateBot" },
 
     { "ParameterKey":"ServiceName",             "ParameterValue":"recyclematebot-webhook" },
