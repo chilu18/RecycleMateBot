@@ -1,7 +1,7 @@
 #!/bin/sh
 
-BUCKET_NAME=recyclemateaus
-BUCKET_PREFIX='recyclemateaus/upload/'
+BUCKET_NAME=RecycleMateBot
+BUCKET_PREFIX='resources/Bot'
 
 ## Creates S3 bucket
 aws s3 mb s3://$BUCKET_NAME
